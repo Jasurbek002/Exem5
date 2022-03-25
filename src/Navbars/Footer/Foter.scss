@@ -1,0 +1,125 @@
+.Footer{
+ 
+  display: flex;
+ margin-top: 200px;
+  &__regis{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: rgb(74, 76, 77);
+  }
+  .regis{
+    width: 30%;
+    &__title{
+      margin-top: 30px;
+      font-size: 30px;
+      color: aliceblue;
+      text-decoration: none;
+    }
+    &__text{
+      margin-top: 30px;
+      color: aliceblue;
+    }
+    &__name{
+      margin-top: 30px;
+      color: aliceblue;
+    }
+    &__div{
+      margin-top: 30px;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      &__input{
+        background-color: rgb(146, 146, 146);
+        width:100%;
+        align-items: center;
+        position: relative;
+        height: 60px;
+        border-radius: 10px;
+      }
+      &__btn{
+        background-color:rgb(228, 228, 38);
+        position: absolute;
+        height: 50px;
+        border-radius:10px;
+        margin-left:250px;
+        width: 40px;
+        border: none;
+      }
+    }
+  }
+  &__bar{
+    padding: 30px;
+    background-color: rgba(46, 46, 46, 1);
+    display: block;
+    width: 75%;
+    &__box{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .box{
+      display: flex;
+      align-items: center;
+      &__nav{
+        list-style: none;
+   
+        &__title{
+          margin-left:100px ;
+          color: white;
+        }
+        &__item{
+          margin: 20px 0px 20px 100px;
+          &__link{
+            text-decoration: none;
+            color: rgb(155, 155, 155);
+          }
+        }
+      }
+      &__nav2{
+        justify-content: center;
+        &__title{
+          color: aliceblue;
+         
+        }
+        &__item{
+          list-style:none;
+          margin: 20px 0px 20px 10px;
+          color: rgb(155, 155, 155);
+        }
+      }
+      &__nav3{
+        justify-content: center;
+        &__title{
+          margin-right: 200px;
+          color: aliceblue;
+         
+        }
+        &__item{
+          list-style:none;
+          margin: 20px 200px 20px 0px;
+          color: rgb(155, 155, 155);
+        }
+      }
+     
+    }
+    &__menu{
+     width: 100%;
+      display: flex;
+      align-items: center;
+
+    }
+    .menu{
+      align-items: center;
+      &__link{
+        align-items: center;
+        padding: 10px;
+        text-decoration: none;
+        color: aliceblue;
+      }
+    }
+  }
+ 
+}

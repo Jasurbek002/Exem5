@@ -1,0 +1,55 @@
+.Login__style{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, yellow , rgb(26, 26, 24));
+    
+}
+
+
+.Login{
+    padding: 20px;
+    position: absolute;
+    margin-left: 150px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title{
+        color: white;
+        margin: 30 0px;
+    }
+    &__name{
+      color: white;
+      font-size: 50px;
+      margin-bottom: 90px;
+    }
+    &__email{
+        height: 60px;
+        width: 100%;
+        padding: 0 20px;
+        border-radius: 20px;
+        font-size: 18px;
+        border: none;
+    }
+    &__pass{
+         margin-top:30px ;
+        height: 60px;
+        width: 100%;
+        padding: 0 20px;
+        border-radius: 20px;
+        font-size: 18px;
+        border: none;
+    }
+    &__btn{
+        margin-top: 30px;
+        width: 110px;
+        height: 55px;
+        border-radius: 20px;
+        background-color: rgba(254, 213, 48, 1);
+        border: none;
+        box-shadow: 0 0 5px rgb(190, 15, 15);
+    }
+
+}
